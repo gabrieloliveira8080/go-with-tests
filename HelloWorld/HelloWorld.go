@@ -34,5 +34,5 @@ func greetingPrefix(language string) (prefix string) {
 }
 
 func main() {
-	fmt.Println(Hello("", "")) // Specify the language explicitly
+	fmt.Println(Hello("gabriel", "Spanish")) // Specify the language explicitly
 }
