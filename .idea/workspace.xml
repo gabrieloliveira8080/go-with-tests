@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="423af29c-3a8e-4be8-ac82-ccfb48b2d041" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/go-with-tests.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArraysAndSlices/sum.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArraysAndSlices/sum_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld/HelloWorld.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld/hello_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integers/adder.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Integers/adder_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iteration/repeat.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Iteration/repeat_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maps/dictionary.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maps/dictionary_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pointers/wallet.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pointers/wallet_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StructsMethodsInterfaces/shapes.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StructsMethodsInterfaces/shapes_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../../Program Files/Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2bbUUporQfAAuNmLkljsrjvclYR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;Go Build.go build HelloWorld.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build Simple.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestHello in hello_test.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestUpdate in learning/Maps.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestWallet/withdraw_insufficient_funds in learning/Pointers.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gabriel/Documents/GitHub/go-with-tests&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gabriel\Documents\GitHub\go-with-tests" />
+      <recent name="C:\Users\gabriel\Documents\GitHub\go-with-tests\HelloWorld" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.TestUpdate in learning/Maps">
+    <configuration name="go build HelloWorld.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-with-tests" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/HelloWorld/HelloWorld.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build Simple.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-with-tests" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/HelloWorld/Simple.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestHello in hello_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-with-tests" />
+      <working_directory value="$PROJECT_DIR$/HelloWorld" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/HelloWorld/hello_test.go" />
+      <framework value="gotest" />
+      <pattern value="^\QTestHello\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestUpdate in learning/Maps" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-with-tests" />
+      <working_directory value="$PROJECT_DIR$/Maps" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="learning/Maps" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestUpdate\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestWallet/withdraw_insufficient_funds in learning/Pointers" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-with-tests" />
+      <working_directory value="$PROJECT_DIR$/Pointers" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="learning/Pointers" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestWallet\E$/^\Qwithdraw_insufficient_funds\E$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestUpdate in learning/Maps" />
+        <item itemvalue="Go Test.TestWallet/withdraw_insufficient_funds in learning/Pointers" />
+        <item itemvalue="Go Build.go build HelloWorld.go" />
+        <item itemvalue="Go Test.TestHello in hello_test.go" />
+        <item itemvalue="Go Build.go build Simple.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-33c477a475b1-b97fc8a1e17c-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-241.14494.238" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-GO-241.14494.238" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
