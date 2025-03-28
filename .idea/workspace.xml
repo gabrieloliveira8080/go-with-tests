@@ -5,25 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="423af29c-3a8e-4be8-ac82-ccfb48b2d041" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/go-with-tests.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArraysAndSlices/sum.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArraysAndSlices/sum_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld/HelloWorld.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld/hello_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Integers/adder.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Integers/adder_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Iteration/repeat.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Iteration/repeat_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maps/dictionary.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maps/dictionary_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pointers/wallet.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pointers/wallet_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StructsMethodsInterfaces/shapes.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/StructsMethodsInterfaces/shapes_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conceitos/DependencyInjection/di.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conceitos/DependencyInjection/di_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conceitos/Mocking/countdown.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conceitos/Mocking/countdown_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Go Application" />
         <option value="Go File" />
       </list>
     </option>
@@ -52,95 +39,108 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;Go Build.go build HelloWorld.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go Build.go build Simple.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestHello in hello_test.go.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestUpdate in learning/Maps.executor&quot;: &quot;Run&quot;,
-    &quot;Go Test.TestWallet/withdraw_insufficient_funds in learning/Pointers.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/gabriel/Documents/GitHub/go-with-tests&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "Go Build.go build HelloWorld.go.executor": "Run",
+    "Go Build.go build Simple.go.executor": "Run",
+    "Go Build.go build learning/DependencyInjection.executor": "Run",
+    "Go Test.TestAdd in learning/Maps.executor": "Run",
+    "Go Test.TestAdd/existing_word in learning/Maps.executor": "Run",
+    "Go Test.TestGreet in learning/DependencyInjection.executor": "Run",
+    "Go Test.TestHello in hello_test.go.executor": "Run",
+    "Go Test.TestSearch in learning/Maps.executor": "Run",
+    "Go Test.TestUpdate in learning/Maps.executor": "Run",
+    "Go Test.TestWallet/withdraw_insufficient_funds in learning/Pointers.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/gabriel/Documents/GitHub/go-with-tests",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gabriel\Documents\GitHub\go-with-tests\Conceitos" />
       <recent name="C:\Users\gabriel\Documents\GitHub\go-with-tests" />
       <recent name="C:\Users\gabriel\Documents\GitHub\go-with-tests\HelloWorld" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestUpdate in learning/Maps">
-    <configuration name="go build HelloWorld.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build learning/DependencyInjection">
+    <configuration name="go build learning/DependencyInjection" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-with-tests" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
+      <working_directory value="$PROJECT_DIR$/Conceitos" />
+      <kind value="PACKAGE" />
+      <package value="learning/DependencyInjection" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/HelloWorld/HelloWorld.go" />
+      <filePath value="$PROJECT_DIR$/Conceitos/DependencyInjection/di.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Simple.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAdd in learning/Maps" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-with-tests" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/HelloWorld/Simple.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestHello in hello_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-with-tests" />
-      <working_directory value="$PROJECT_DIR$/HelloWorld" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/HelloWorld/hello_test.go" />
-      <framework value="gotest" />
-      <pattern value="^\QTestHello\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestUpdate in learning/Maps" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-with-tests" />
-      <working_directory value="$PROJECT_DIR$/Maps" />
-      <root_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/Conceitos/Maps" />
+      <root_directory value="$PROJECT_DIR$/Conceitos" />
       <kind value="PACKAGE" />
       <package value="learning/Maps" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestUpdate\E$" />
+      <pattern value="^\QTestAdd\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestWallet/withdraw_insufficient_funds in learning/Pointers" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAdd/existing_word in learning/Maps" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-with-tests" />
-      <working_directory value="$PROJECT_DIR$/Pointers" />
-      <root_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/Conceitos/Maps" />
+      <root_directory value="$PROJECT_DIR$/Conceitos" />
       <kind value="PACKAGE" />
-      <package value="learning/Pointers" />
+      <package value="learning/Maps" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestWallet\E$/^\Qwithdraw_insufficient_funds\E$" />
+      <pattern value="^\QTestAdd\E$/^\Qexisting_word\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestGreet in learning/DependencyInjection" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-with-tests" />
+      <working_directory value="$PROJECT_DIR$/Conceitos/DependencyInjection" />
+      <root_directory value="$PROJECT_DIR$/Conceitos" />
+      <kind value="PACKAGE" />
+      <package value="learning/DependencyInjection" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestGreet\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSearch in learning/Maps" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-with-tests" />
+      <working_directory value="$PROJECT_DIR$/Conceitos/Maps" />
+      <root_directory value="$PROJECT_DIR$/Conceitos" />
+      <kind value="PACKAGE" />
+      <package value="learning/Maps" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestSearch\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestUpdate in learning/Maps" />
-        <item itemvalue="Go Test.TestWallet/withdraw_insufficient_funds in learning/Pointers" />
-        <item itemvalue="Go Build.go build HelloWorld.go" />
-        <item itemvalue="Go Test.TestHello in hello_test.go" />
-        <item itemvalue="Go Build.go build Simple.go" />
+        <item itemvalue="Go Build.go build learning/DependencyInjection" />
+        <item itemvalue="Go Test.TestGreet in learning/DependencyInjection" />
+        <item itemvalue="Go Test.TestSearch in learning/Maps" />
+        <item itemvalue="Go Test.TestAdd in learning/Maps" />
+        <item itemvalue="Go Test.TestAdd/existing_word in learning/Maps" />
       </list>
     </recent_temporary>
   </component>
@@ -158,5 +158,16 @@
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Conceitos/Maps/dictionary.go</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
