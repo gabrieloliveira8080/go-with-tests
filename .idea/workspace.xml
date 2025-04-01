@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="423af29c-3a8e-4be8-ac82-ccfb48b2d041" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Conceitos/DependencyInjection/di.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Conceitos/DependencyInjection/di_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Conceitos/Mocking/countdown.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Conceitos/Mocking/countdown_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Conceitos/Mocking/countdown.go" beforeDir="false" afterPath="$PROJECT_DIR$/Conceitos/Mocking/countdown.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Conceitos/Mocking/countdown_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Conceitos/Mocking/countdown_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Conceitos/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/Conceitos/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +46,15 @@
     "Go Build.go build learning/DependencyInjection.executor": "Run",
     "Go Test.TestAdd in learning/Maps.executor": "Run",
     "Go Test.TestAdd/existing_word in learning/Maps.executor": "Run",
+    "Go Test.TestCountdown in learning/Mocking (1).executor": "Run",
+    "Go Test.TestCountdown in learning/Mocking.executor": "Run",
     "Go Test.TestGreet in learning/DependencyInjection.executor": "Run",
     "Go Test.TestHello in hello_test.go.executor": "Run",
     "Go Test.TestSearch in learning/Maps.executor": "Run",
     "Go Test.TestUpdate in learning/Maps.executor": "Run",
     "Go Test.TestWallet/withdraw_insufficient_funds in learning/Pointers.executor": "Run",
+    "Go Test.go test learning/Maps.executor": "Run",
+    "Go Test.go test learning/Mocking.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -76,7 +79,7 @@
       <recent name="C:\Users\gabriel\Documents\GitHub\go-with-tests\HelloWorld" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build learning/DependencyInjection">
+  <component name="RunManager" selected="Go Test.go test learning/Mocking">
     <configuration name="go build learning/DependencyInjection" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-with-tests" />
       <working_directory value="$PROJECT_DIR$/Conceitos" />
@@ -86,7 +89,31 @@
       <filePath value="$PROJECT_DIR$/Conceitos/DependencyInjection/di.go" />
       <method v="2" />
     </configuration>
-    <configuration name="TestAdd in learning/Maps" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCountdown in learning/Mocking (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-with-tests" />
+      <working_directory value="$PROJECT_DIR$/Conceitos/Mocking" />
+      <root_directory value="$PROJECT_DIR$/Conceitos" />
+      <kind value="PACKAGE" />
+      <package value="learning/Mocking" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCountdown\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCountdown in learning/Mocking" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-with-tests" />
+      <working_directory value="$PROJECT_DIR$/Conceitos/Mocking" />
+      <root_directory value="$PROJECT_DIR$/Conceitos" />
+      <kind value="PACKAGE" />
+      <package value="learning/Mocking" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCountdown\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test learning/Maps" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-with-tests" />
       <working_directory value="$PROJECT_DIR$/Conceitos/Maps" />
       <root_directory value="$PROJECT_DIR$/Conceitos" />
@@ -95,52 +122,26 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestAdd\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestAdd/existing_word in learning/Maps" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go test learning/Mocking" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-with-tests" />
-      <working_directory value="$PROJECT_DIR$/Conceitos/Maps" />
+      <working_directory value="$PROJECT_DIR$/Conceitos/Mocking" />
       <root_directory value="$PROJECT_DIR$/Conceitos" />
       <kind value="PACKAGE" />
-      <package value="learning/Maps" />
+      <package value="learning/Mocking" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestAdd\E$/^\Qexisting_word\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestGreet in learning/DependencyInjection" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-with-tests" />
-      <working_directory value="$PROJECT_DIR$/Conceitos/DependencyInjection" />
-      <root_directory value="$PROJECT_DIR$/Conceitos" />
-      <kind value="PACKAGE" />
-      <package value="learning/DependencyInjection" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestGreet\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestSearch in learning/Maps" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="go-with-tests" />
-      <working_directory value="$PROJECT_DIR$/Conceitos/Maps" />
-      <root_directory value="$PROJECT_DIR$/Conceitos" />
-      <kind value="PACKAGE" />
-      <package value="learning/Maps" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestSearch\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test learning/Mocking" />
+        <item itemvalue="Go Test.TestCountdown in learning/Mocking (1)" />
+        <item itemvalue="Go Test.go test learning/Maps" />
+        <item itemvalue="Go Test.TestCountdown in learning/Mocking" />
         <item itemvalue="Go Build.go build learning/DependencyInjection" />
-        <item itemvalue="Go Test.TestGreet in learning/DependencyInjection" />
-        <item itemvalue="Go Test.TestSearch in learning/Maps" />
-        <item itemvalue="Go Test.TestAdd in learning/Maps" />
-        <item itemvalue="Go Test.TestAdd/existing_word in learning/Maps" />
       </list>
     </recent_temporary>
   </component>
@@ -158,16 +159,5 @@
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/Conceitos/Maps/dictionary.go</url>
-          <line>10</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
