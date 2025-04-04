@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="423af29c-3a8e-4be8-ac82-ccfb48b2d041" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conceitos/Mocking/countdown.go" beforeDir="false" afterPath="$PROJECT_DIR$/Conceitos/Mocking/countdown.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conceitos/Mocking/countdown_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Conceitos/Mocking/countdown_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conceitos/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/Conceitos/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,40 +35,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "Go Build.go build HelloWorld.go.executor": "Run",
-    "Go Build.go build Simple.go.executor": "Run",
-    "Go Build.go build learning/DependencyInjection.executor": "Run",
-    "Go Test.TestAdd in learning/Maps.executor": "Run",
-    "Go Test.TestAdd/existing_word in learning/Maps.executor": "Run",
-    "Go Test.TestCountdown in learning/Mocking (1).executor": "Run",
-    "Go Test.TestCountdown in learning/Mocking.executor": "Run",
-    "Go Test.TestGreet in learning/DependencyInjection.executor": "Run",
-    "Go Test.TestHello in hello_test.go.executor": "Run",
-    "Go Test.TestSearch in learning/Maps.executor": "Run",
-    "Go Test.TestUpdate in learning/Maps.executor": "Run",
-    "Go Test.TestWallet/withdraw_insufficient_funds in learning/Pointers.executor": "Run",
-    "Go Test.go test learning/Maps.executor": "Run",
-    "Go Test.go test learning/Mocking.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/gabriel/Documents/GitHub/go-with-tests",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;Go Build.go build HelloWorld.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build Simple.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build learning/DependencyInjection.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestAdd in learning/Maps.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestAdd/existing_word in learning/Maps.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestCountdown in learning/Mocking (1).executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestCountdown in learning/Mocking.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestGreet in learning/DependencyInjection.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestHello in hello_test.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestSearch in learning/Maps.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestUpdate in learning/Maps.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestWallet/withdraw_insufficient_funds in learning/Pointers.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.go test learning/Maps.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.go test learning/Mocking.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gabriel/Documents/GitHub/go-with-tests&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\gabriel\Documents\GitHub\go-with-tests\Conceitos" />
@@ -148,8 +146,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-gosdk-33c477a475b1-b97fc8a1e17c-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-241.14494.238" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-GO-241.14494.238" />
+        <option value="bundled-gosdk-d297c17c1fbd-57c114c3cede-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-243.26053.20" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-GO-243.26053.20" />
       </set>
     </attachedChunks>
   </component>
