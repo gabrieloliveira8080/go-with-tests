@@ -1,0 +1,8 @@
+# JetBrains IDE
+.idea/
+
+# Go
+*.exe
+*.test
+*.out
+bin/
